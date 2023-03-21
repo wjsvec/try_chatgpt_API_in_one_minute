@@ -1,9 +1,9 @@
-# try chatgpt API in one minute
+# try chatgpt API in one minute⚡
 
 
-## 这个项目用来做什么
+## 这个项目用来做什么😊
 
-由于一些特殊的网络原因，在试用 chatgpt 的 API 的时候总是遇到奇奇怪怪的问题，有时候都不知道是网络问题，还是环境没有配好，还是 API 参数写错了。这个项目就是用 GitHub 里 codeplace 预先配置好的各种环境，还有在虚拟机上的网络环境，快速试一试 chatgpt 的 API 怎么用。
+由于一些特殊的网络原因，在试用 chatgpt 的 API 的时候总是遇到奇奇怪怪的问题😫，有时候都不知道是网络问题，还是环境没有配好，还是 API 参数写错了。这个项目就是用 GitHub 里 codeplace 预先配置好的各种环境，还有在虚拟机上的网络环境，快速试一试 chatgpt 的 API 怎么用。
 
 我也是在自己电脑上试了很久，最后还是在 codeplace 里发现自己那边确实是有个接口忘记配置了。
 
@@ -41,7 +41,7 @@
 
 
 
-安装一下相关的 openai 库(在这里可不用配置 pip 镜像，是不是非常方便？)
+安装一下相关的 openai 库(在这里可不用配置 pip 镜像，是不是非常方便？😉)
 
 ```
 
@@ -78,7 +78,7 @@ python chatgpt_API.py
 ![FX4P9 2U)Y87EZARFRICRBN](https://user-images.githubusercontent.com/39830125/226631839-b901deee-c354-42a6-a87f-fc436e3411be.png)
 
 
-由于 nodeJS 的库函数已经在 `node_modules` 里面放好了，所以不用配置环境了（以防万一说一下安装 openai 的命令是 `npm install openai`）(在这里可不用配置 npm 镜像，是不是非常方便？)
+由于 nodeJS 的库函数已经在 `node_modules` 里面放好了，所以不用配置环境了（以防万一说一下安装 openai 的命令是 `npm install openai`）(在这里可不用配置 npm 镜像，是不是非常方便？😉)
 
 修改 "OPENAI_API_KEY" 成你自己的 API key
 
