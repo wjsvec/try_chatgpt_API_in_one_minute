@@ -1,4 +1,5 @@
-# try_chat_gpt_in_one_minute
+# try chatgpt API in one minute
+
 
 ## 这个项目用来做什么
 
@@ -105,4 +106,4 @@ node chatgpt_API
 - 这个项目全程都是在 chrome 里写完的，我的电脑里也没有这个项目，看看我多么滴云原生（不是）
 - 发这条推特被某个知名推主回复，推特粉丝直接翻倍 QAQ
 - 本来想用英文写 README 的，后来一想好像没必要哦🤣
-- js API测试语言是写一个 python hello world，python 的 测试语言是写一个 js 的 hello world
+- js API测试语言是写一个 python hello world，python 的 测试语言是写一个 js 的 hello world（后面更新其它语言就是自己的hello world了）
