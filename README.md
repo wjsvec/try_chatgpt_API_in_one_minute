@@ -25,7 +25,79 @@
 
 
 
-左边的
+左边的文件名对应着不同的语言环境，我们想使用那种语言就可以进入那个文件去就好啦。
+
+## API 调用
+
+这部分是关于不同的语言的不同运行方式。openAI 目前只支持了python 和 node.js，其它语言会从社区维护的库放在最前面。
+
+### python
+
+参考：[官方文档](https://platform.openai.com/docs/api-reference/introduction)
+
+进入 python 目录下的 chatgpt_API.py 文件，如图所示：
+![QLJE6X4NQE8JE)7W @}P3%I](https://user-images.githubusercontent.com/39830125/226631399-20362c12-b174-44be-ae0f-bfd57ffec789.png)
+
+
+
+安装一下相关的 openai 库(在这里可不用配置 pip 镜像，是不是非常方便？)
+
+```
+
+cd python
+
+pip install -r requirements.txt
+
+```
+
+然后修改 "OPENAI_API_KEY" 成你自己的 API key，然后点击“运行”小按钮
+![image](https://user-images.githubusercontent.com/39830125/226631594-85320797-6d17-4ecd-b89b-6cd8a2d1cc59.png)
+
+
+
+或者在终端输入
+
+```
+
+python chatgpt_API.py
+
+```
+
+运行结果是这样的：
+![GC_HZ}PZSK(QE@DTH$M~9F6](https://user-images.githubusercontent.com/39830125/226631679-24615422-35d9-4c56-98db-cdeafede224e.png)
+
+
+
+### NodeJS
+
+参考 ：[官方文档](https://platform.openai.com/docs/api-reference/introduction)
+
+进入 nodeJS 目录下的 chatgpt_API.js 文件，如图所示：
+
+![FX4P9 2U)Y87EZARFRICRBN](https://user-images.githubusercontent.com/39830125/226631839-b901deee-c354-42a6-a87f-fc436e3411be.png)
+
+
+由于 nodeJS 的库函数已经在 `node_modules` 里面放好了，所以不用配置环境了（以防万一说一下安装 openai 的命令是 `npm install openai`）(在这里可不用配置 npm 镜像，是不是非常方便？)
+
+修改 "OPENAI_API_KEY" 成你自己的 API key
+
+
+
+在终端输入
+
+```
+
+cd nodeJS
+
+node chatgpt_API
+
+```
+
+运行结果是这样的：
+![J%FRU4(TBBS7IQJ%W(W4653](https://user-images.githubusercontent.com/39830125/226632006-2d7d1444-ce7d-4f59-85c9-558c656371ba.png)
+
+
+
 
 
 ## 彩蛋环节
@@ -33,3 +105,4 @@
 - 这个项目全程都是在 chrome 里写完的，我的电脑里也没有这个项目，看看我多么滴云原生（不是）
 - 发这条推特被某个知名推主回复，推特粉丝直接翻倍 QAQ
 - 本来想用英文写 README 的，后来一想好像没必要哦🤣
+- js API测试语言是写一个 python hello world，python 的 测试语言是写一个 js 的 hello world
