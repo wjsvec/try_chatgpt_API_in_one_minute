@@ -14,7 +14,7 @@
 
 1. 一个可用 chatgpt 的 API key，只要你有 openai 的账号就可以在 [这里](https://platform.openai.com/account/api-keys) 申请一个，会有18美金的免费额度，没有信用卡也没关系
 
-2. 可以上 GitHub 的网络环境(废话，不然怎么看到的这个项目)。但是偶尔 GitHub 也可以直连，为了保证 codeplace 的稳定访问，还是在这里说明一下
+2. 可以上 GitHub 的网络环境(废话，不然怎么看到的这个项目)。为了保证 codeplace 的稳定访问
 
 ## 启动 codeplace
 
